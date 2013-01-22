@@ -1,5 +1,5 @@
 jQuery(function (){
-	jQuery('.gallery').flexslider({controlNav:false});
+	//jQuery('.gallery').flexslider({controlNav:false});
 	initIeFunctions();
 	
 	var navItems = jQuery('#mainNav li');

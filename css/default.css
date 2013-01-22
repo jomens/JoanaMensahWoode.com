@@ -573,22 +573,25 @@
         background-color: #3366bb;
 	}
 	.gallery{
-		background:url(../img/sep-hor.gif) no-repeat 50% 0;
-		padding:2px 0;
-		position:relative;
 		margin:0 auto;
 		width:81.25%;
 		position:relative;
 	}
-	.gallery:after{
-		content:"";
-		position:absolute;
-		bottom:0;
-		left:0;
-		background:url(../img/sep-hor.gif) no-repeat 50% 0;
-		width:100%;
-		height:2px;
-	}
+
+    .gallery img {
+        display: block;
+        margin: auto;
+    }
+    .gallery h3 {
+        position: absolute;
+        color: white;
+        bottom: 0px;
+        right: 10px;
+        font-size: 200%;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, .5);
+    }
+	
 	.news > div{
 		position:relative;
 		padding:0 0 50px;
@@ -699,6 +702,21 @@
 		color:#fff;
 		line-height:16px;
 	}
+    .project{
+        clear: both;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .project h3 {
+        margin-top: 20px;
+        text-align: left;
+        font-size: 180%;
+        clear: both;
+    }
+    .project p {
+        clear: both;
+        font-size: 120%;
+    }
 	#footer a{
 		color:#fff;
 	}
