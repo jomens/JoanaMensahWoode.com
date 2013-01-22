@@ -161,7 +161,7 @@
 		text-shadow:0 1px 2px rgba(0,0,0,0.5);
 	}
 	.grey .subHeading{
-		color:#d9e7fb;
+		color: white;
 		text-shadow:0 1px 1px rgba(0,0,0,0.5);
 	}
 	.grey a{color:#fff;}
@@ -226,7 +226,7 @@
 		box-shadow:         0 1px 1px rgba(255,255,255,0.36);*/
 	}
 	.btnSmall span{
-        color: #606a78;
+		color: #606a78;
 		text-decoration:none;
 		padding:0 1.47em;
 		display:block;
@@ -516,7 +516,7 @@
 		border-radius: 1.47em;*/
 	}
 	#mainNav a span{
-		color:#2d3239;
+		color:white;
 		text-decoration:none;
 		padding:0 1.25em;
 		display:block;
@@ -524,7 +524,7 @@
 		
 		/*border:1px solid #202329;*/
 		/*background:#606a78;*/
-		background:#ffaa00;
+		/*background:#ffaa00;*/
 
 		/*background-image: linear-gradient(bottom, rgb(65,72,82) 0%, rgb(96,106,120) 100%);
 		background-image: -o-linear-gradient(bottom, rgb(65,72,82) 0%, rgb(96,106,120) 100%);
@@ -569,8 +569,8 @@
 			color-stop(0, rgb(71,83,101)),
 			color-stop(1, rgb(123,145,177))
 		)*/
-        color: white;
-        background-color: #3366bb;
+		color: white;
+		background-color: #3366bb;
 	}
 	.gallery{
 		margin:0 auto;
@@ -578,19 +578,19 @@
 		position:relative;
 	}
 
-    .gallery img {
-        display: block;
-        margin: auto;
-    }
-    .gallery h3 {
-        position: absolute;
-        color: white;
-        bottom: 0px;
-        right: 10px;
-        font-size: 200%;
-        padding: 10px;
-        background-color: rgba(0, 0, 0, .5);
-    }
+	.gallery img {
+		display: block;
+		margin: auto;
+	}
+	.gallery h3 {
+		position: absolute;
+		color: white;
+		bottom: 0px;
+		right: 10px;
+		font-size: 200%;
+		padding: 10px;
+		background-color: rgba(0, 0, 0, .5);
+	}
 	
 	.news > div{
 		position:relative;
@@ -604,7 +604,7 @@
 		clear:both;
 	}
 	.news h3{
-        color: #ffaa00;
+		color: #ffaa00;
 		font-size:1.714em;
 		line-height:2.583em;
 		text-align:center;
@@ -683,18 +683,18 @@
 		width:100%;
 	}
 	.form{width:92%;}
-	#testimonials{
+	#portfolioTab{
 		margin-top:-2.857em;
 	}
-	#testimonials .row{
+	#portfolioTab .row{
 		padding:0;
 		background:url(../img/sep-hor.gif) no-repeat 50% 1.5em;
 	}
-	#testimonials .row:first-child{
+	#portfolioTab .row:first-child{
 		background:none;
 	}
-	#testimonials{background:none;}
-	#testimonials:after{display:none;}
+	#portfolioTab{background:none;}
+	#portfolioTab:after{display:none;}
 	#footer{
 		width:100%;
 		overflow:hidden;
@@ -702,21 +702,24 @@
 		color:#fff;
 		line-height:16px;
 	}
-    .project{
-        clear: both;
-        margin-top: 20px;
-        margin-bottom: 10px;
-    }
-    .project h3 {
-        margin-top: 20px;
-        text-align: left;
-        font-size: 180%;
-        clear: both;
-    }
-    .project p {
-        clear: both;
-        font-size: 120%;
-    }
+	.project{
+		clear: both;
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+	.project h3 {
+		margin-top: 20px;
+	    margin-bottom: 0;
+		text-align: left;
+		font-size: 180%;
+		clear: both;
+	    color: #ee6600;
+	}
+	.project p {
+		clear: both;
+	    margin: 5px;
+		font-size: 120%;
+	}
 	#footer a{
 		color:#fff;
 	}
@@ -754,16 +757,16 @@
 		width:100%;
 	}
 	.buttons{font-size:7px;}
-	#testimonials li,
-	#testimonials .row{
+	#portfolioTab li,
+	#portfolioTab .row{
 		background:none;
 	}
-	#testimonials blockquote{
+	#portfolioTab blockquote{
 		float:none;
 		width:100%;
 		position:relative;
 	}
-	#testimonials blockquote:after{
+	#portfolioTab blockquote:after{
 		background:url(../img/sep-hor.gif) no-repeat 50% 0;
 		content:"";
 		position:absolute;
@@ -772,7 +775,7 @@
 		width:100%;
 		height:2px;
 	}
-	#testimonials .row:first-child blockquote:first-child:after{display:none;}
+	#portfolioTab .row:first-child blockquote:first-child:after{display:none;}
 	.flex-direction-nav{display:none;}
 	h1{font-size:3em;}
 	.subHeading{font-size:1.75em;}
