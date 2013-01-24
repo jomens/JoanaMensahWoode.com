@@ -712,6 +712,7 @@
         text-align: left;
         font-size: 180%;
         clear: both;
+        color: #ee6600;
     }
     .project p {
         clear: both;
@@ -721,6 +722,12 @@
 		color:#fff;
 	}
 	#footer .copy{float:right;}
+
+    .bitter {
+        font-size: 150%;
+                color: #ee6600;
+
+    }
 }
 @media all and (max-width: 1024px){
 }
