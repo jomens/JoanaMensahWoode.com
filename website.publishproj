@@ -8,7 +8,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{881ba591-e35c-4c7d-961a-0a01064c2bc3}</ProjectGuid>
     <SourceWebPhysicalPath>$(MSBuildThisFileDirectory)</SourceWebPhysicalPath>
-    <SourceWebVirtualPath>/ShirleyNita.com</SourceWebVirtualPath>
+    <SourceWebVirtualPath>/JoanaMensahWoode.com</SourceWebVirtualPath>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <SourceWebProject></SourceWebProject>
     <SourceWebMetabasePath></SourceWebMetabasePath>
